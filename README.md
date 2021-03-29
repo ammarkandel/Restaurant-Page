@@ -6,7 +6,6 @@
 
 - First: clone the repo and open the folder.
 - Make sure you have npm installed localy then run `npm install` and `npm start`.
-- Second: open index.html file with chrome or any browser (prefer chrome).
 
 ### Author
 
