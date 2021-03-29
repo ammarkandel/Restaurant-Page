@@ -11,7 +11,7 @@ module.exports = merge(common, {
   mode: 'production',
   output: {
     filename: '[name].[contentHash].bundle.js',
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, 'dist'),
   },
   optimization: {
     minimizer: [
@@ -23,9 +23,9 @@ module.exports = merge(common, {
           removeAttributeQuotes: true,
           collapseWhitespace: true,
           removeComments: true,
-        }
+        },
       }),
-    ]
+    ],
   },
   plugins: [
     new MiniCssExtractPlugin({ filename: '[name].[contentHash].css' }),
