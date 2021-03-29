@@ -1,7 +1,5 @@
 const header = document.createElement('header');
 
-
-header.textContent = 'Get The Best From Food'
-
+header.textContent = 'Get the best from food';
 
 document.body.appendChild(header);
