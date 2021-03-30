@@ -1,6 +1,6 @@
 # Restaurant-Page
 
-## Simple page restaurant for learning setup webpack
+## Simple page restaurant for setup webpack
 
 ### How to run this project
 
