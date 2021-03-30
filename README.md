@@ -4,6 +4,10 @@
 
 ![screen](src/assets/2021-03-30_22-23.png).
 
+### purpose
+
+- Setup webpack.
+
 ### How to run this project
 
 - First: clone the repo and open the folder.
