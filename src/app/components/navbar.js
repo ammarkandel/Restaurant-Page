@@ -11,10 +11,8 @@ for (let i = 0; i < aContent.length; i += 1) {
   li.appendChild(a);
   ul.appendChild(li);
 }
-
 div.classList.add('logo');
 div.textContent = 'Tito';
-
 nav.appendChild(div);
 nav.appendChild(ul);
 document.body.appendChild(nav);

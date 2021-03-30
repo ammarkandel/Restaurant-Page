@@ -10,7 +10,7 @@ module.exports = merge(common, {
     path: path.resolve(__dirname, 'dist'),
   },
   plugins: [new HtmlWebpackPlugin({
-    template: './src/template.html'
+    template: './src/template.html',
   })],
   module: {
     rules: [
@@ -20,4 +20,4 @@ module.exports = merge(common, {
       },
     ],
   },
-})
+});

@@ -7,7 +7,7 @@ menuSection.setAttribute('id', 'menu');
 menuTitle.textContent = 'Menu';
 menuSection.appendChild(menuTitle);
 
-for (let i = 0; i < menuContent.length; i++) {
+for (let i = 0; i < menuContent.length; i += 1) {
   const li = document.createElement('li');
   
   li.textContent = menuContent[i];
