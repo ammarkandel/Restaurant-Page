@@ -1,6 +1,6 @@
 # Restaurant-Page
 
-## Simple page restaurant for setup webpack
+## Simple page restaurant for setup webpack. The page has simple navbar with 2 links and 2 sections.![screen](src/assets/2021-03-30_22-23.png)
 
 ### How to run this project
 
