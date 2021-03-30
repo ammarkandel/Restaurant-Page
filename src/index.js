@@ -1,6 +1,2 @@
-import './main.scss';
-const h1 = document.createElement('h1');
-
-h1.textContent = 'Hello';
-
-document.body.appendChild(h1);
+import './index.scss';
+import './app/app.js';

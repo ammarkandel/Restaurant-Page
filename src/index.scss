@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+nav {
+  background-color: black;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+li {
+  display: inline-block;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.logo {
+  font-size: 3rem;
+}
+
+header {
+  height: 40rem;
+  background: url("./assets/header-img.jpg") no-repeat;
+  background-size: cover;
+  font-size: 4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about,
+#menu {
+  height: 20rem;
+  text-align: center;
+  background-color: black;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
