@@ -22,4 +22,3 @@ This is a project for educational purposes only. We are not accepting contributi
 ### Show your support
 
 Give a ⭐️ if you like this project!
-webpack-dev-server --config webpack.dev.js --open
