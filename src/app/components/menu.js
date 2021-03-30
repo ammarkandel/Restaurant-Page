@@ -9,11 +9,9 @@ menuSection.appendChild(menuTitle);
 
 for (let i = 0; i < menuContent.length; i += 1) {
   const li = document.createElement('li');
-  
   li.textContent = menuContent[i];
   menuDetails.appendChild(li);
 }
 
 menuSection.appendChild(menuDetails);
-
 document.body.appendChild(menuSection);
