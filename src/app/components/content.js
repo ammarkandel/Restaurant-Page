@@ -1,18 +1,18 @@
+import defaultText from './header';
 const aboutLink = document.getElementById('about');
 const menuLink = document.getElementById('menu');
 const homeLink = document.getElementById('home');
 const content = document.getElementById('display-content');
-import defaultText from './header';
 
 
-menuLink.addEventListener('click', ()=> {
+menuLink.addEventListener('click', () => {
   menuLink.className = 'active';
   aboutLink.className = '';
   homeLink.className = '';
   content.textContent = 'Lorem ipsum adipisicing elit. Dolor sit amet consectetur voluptates iste qui in.';
 });
 
-aboutLink.addEventListener('click', ()=> {
+aboutLink.addEventListener('click', () => {
   menuLink.className = '';
   homeLink.className = '';
   aboutLink.className = 'active';
@@ -20,7 +20,7 @@ aboutLink.addEventListener('click', ()=> {
 });
 
 homeLink.className = 'active';
-homeLink.addEventListener('click', ()=> {
+homeLink.addEventListener('click', () => {
   aboutLink.className = '';
   menuLink.className = '';
   homeLink.className = 'active';

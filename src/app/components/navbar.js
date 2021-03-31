@@ -1,7 +1,7 @@
 const nav = document.createElement('nav');
 const div = document.createElement('div');
 const ul = document.createElement('ul');
-const aContent = ['home','about', 'menu'];
+const aContent = ['home', 'about', 'menu'];
 
 for (let i = 0; i < aContent.length; i += 1) {
   const a = document.createElement('a');
