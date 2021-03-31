@@ -1,3 +1,4 @@
+const mainDiv = document.getElementById('content');
 const nav = document.createElement('nav');
 const div = document.createElement('div');
 const ul = document.createElement('ul');
@@ -15,4 +16,4 @@ div.classList.add('logo');
 div.textContent = 'Tito';
 nav.appendChild(div);
 nav.appendChild(ul);
-document.body.appendChild(nav);
+mainDiv.appendChild(nav);

@@ -1,3 +1,5 @@
 import './components/navbar';
 import './components/header';
-import './components/content';
+import './components/home';
+import './components/about';
+import './components/menu';
