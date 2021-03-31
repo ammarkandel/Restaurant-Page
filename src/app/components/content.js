@@ -1,4 +1,5 @@
 import defaultText from './header';
+
 const aboutLink = document.getElementById('about');
 const menuLink = document.getElementById('menu');
 const homeLink = document.getElementById('home');
