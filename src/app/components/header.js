@@ -1,5 +1,7 @@
 const header = document.createElement('header');
-
-header.textContent = 'Get the best from food';
-
+const defaultText = 'Get the best from food';
+header.setAttribute('id', 'display-content');
+header.textContent = defaultText;
 document.body.appendChild(header);
+
+export default defaultText;

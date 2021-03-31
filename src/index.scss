@@ -11,8 +11,6 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: fixed;
-  width: 100%;
 }
 
 li {
@@ -33,21 +31,14 @@ header {
   height: 40rem;
   background: url("./assets/header-img.jpg") no-repeat;
   background-size: cover;
-  font-size: 4rem;
+  font-size: 2rem;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 30px;
 }
 
-#about,
-#menu {
-  height: 20rem;
-  text-align: center;
-  background-color: black;
-  font-size: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+.active {
+  color: rgb(248, 56, 56);
 }
