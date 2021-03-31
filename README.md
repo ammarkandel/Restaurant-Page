@@ -8,6 +8,10 @@
 
 - Setup webpack.
 
+### Live version
+
+![live version](https://simple-restaurant-40.netlify.app/)
+
 ### How to run this project
 
 - First: clone the repo and open the folder.
