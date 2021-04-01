@@ -17,7 +17,7 @@ const vars = {
   aboutLink,
   menuLink,
   homeLink,
-  content
-}
+  content,
+};
 
 export default vars;
